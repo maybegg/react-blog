@@ -23716,7 +23716,7 @@ var SignIn = function (_React$Component) {
                     location.reload();
                     _reactRouter.hashHistory.push('/');
                 } else {
-                    this.setState({ error: true });
+                    this.setState({ error: true, flag: false });
                 }
             }
         }

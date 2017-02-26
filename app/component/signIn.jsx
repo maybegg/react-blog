@@ -26,7 +26,7 @@ export default class SignIn extends React.Component {
                 location.reload();
                 hashHistory.push('/')
             }else{
-                this.setState({error:true});
+                this.setState({error:true,flag:false});
             }
         }
     }
