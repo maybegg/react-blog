@@ -1,0 +1,16 @@
+.main {
+    padding-bottom: 100px;
+}
+.main-inner {
+    margin: 0 auto;
+    width: 700px;
+}
+.main-inner {
+    margin-top: 80px;
+}
+.title {
+    position: absolute;
+    top: 118px;
+    left: 286px;
+    width: 838px;
+}

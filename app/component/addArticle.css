@@ -1,0 +1,20 @@
+ul,ol{
+    list-style: disc;
+    margin-left: 20px;
+}
+.wrap{
+    width:1000px;
+    height:500px;
+    background:#fff;
+    font-size: 20px;
+    color: #333;
+}
+.wrap textarea,.wrap>div{
+    float: left;
+    width: 500px;
+    height: 100%;
+    overflow: auto;
+}
+.wrap div{
+    padding-left: 5px;
+}

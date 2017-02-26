@@ -1,0 +1,116 @@
+.main {
+    padding-bottom: 50px;
+}
+
+.main-inner {
+    margin: 0 auto;
+    width: 700px;
+}
+.main-inner {
+    margin-top: 80px;
+}
+.post{
+    animation: article .5s linear 1.2s backwards
+}
+.posts-expand {
+    padding-top: 0;
+    margin-bottom: 100px;
+}
+.posts-expand .post:first-child {
+    margin-top: 0;
+}
+.posts-expand .post {
+    margin-top: 80px;
+}
+.posts-expand .post-title {
+    position: relative;
+    font-size: 26px;
+    font-weight: 400;
+}
+.posts-expand .post-title, .posts-expand .post-meta {
+    text-align: left;
+}
+.posts-expand .post-title-link {
+    display: inline-block;
+    position: relative;
+    /*color: #555;*/
+    color: #ddd;
+    border-bottom: none;
+    line-height: 1.2;
+    vertical-align: top;
+}
+
+.posts-expand .post-title-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    /*background-color: #000;*/
+    background-color: #87daff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.posts-expand .post-title-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.posts-expand .post-meta {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.posts-expand .post-meta {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 12px;
+}
+.post-meta-item-icon {
+    /*display: none;*/
+    margin-right: 3px;
+}
+p {
+    max-height: 105px;
+    overflow: hidden;
+    margin: 0 0 25px 0;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+}
+.post-more-link {
+    margin-top: 20px;
+    text-align: left;
+}
+.post-more-link .btn {
+    /*color: #555;*/
+    color: #666;
+    font-size: 14px;
+    background: transparent;
+    border-radius: 0;
+    line-height: 2;
+}
+
+.post-more-link a {
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #666;
+    transition-property: border;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.content .post-body{
+    max-height: 160px;
+    overflow: hidden;
+}

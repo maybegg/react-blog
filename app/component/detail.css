@@ -1,0 +1,15 @@
+
+.updel :first-child, .updel :last-child{
+    display: inline-block;
+    color:#23527c;
+    padding: 0 10px;
+    background-color:#e1e1e1;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.updel :first-child:hover, .updel :last-child:hover{
+    background-color:#444;
+    color: #bbb;
+}
